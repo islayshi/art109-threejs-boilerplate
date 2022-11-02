@@ -8,9 +8,7 @@ body {
   margin: auto;
   display: block;
   padding: 20px;
-  background: url(
-data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAMklEQVQYV2N8dvrxfwYk8Oz0EwZGZEGQgJSpDEIQJgDSBFYJE4CrPDPt+H+QFhgASQAAS1MjDyLYWWEAAAAASUVORK5CYII=
-    )repeat;
+  
 }
 
 /*Canvas style is used for styling the three.js window*/

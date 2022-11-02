@@ -25,6 +25,12 @@ const material = new THREE.MeshStandardMaterial({ color: 0x2e8e39 });
 const poly = new THREE.Mesh(geometry, material);
 scene.add(poly);
 
+const geometry2 = new THREE.BoxGeometry( 1, 1, 1 );
+const material2 = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
+const cube = new THREE.Mesh( geometry, material );
+scene.add( cube );
+
+
 // add wireframe to shape
 const matLineBasic = new THREE.LineBasicMaterial({ color: 0x2e8e99 });
 const wireframe = new THREE.WireframeGeometry(geometry);
@@ -33,6 +39,7 @@ line.material.depthTest = false;
 line.material.opacity = 0.9;
 line.material.transparent = false;
 scene.add(line);
+
 
 // Position our camera so we can see the shape
 camera.position.z = 5;
